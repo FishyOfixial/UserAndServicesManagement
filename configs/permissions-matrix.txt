@@ -1,0 +1,12 @@
+/shared/projects/:
+total 8
+drwxrwx--- 2 root  developers 4096 sep 30 06:53 .
+drwxr-xr-x 4 root  root       4096 sep 30 06:53 ..
+-rw-rw-r-- 1 alice alice         0 sep 30 06:53 alice-file.txt
+-rw-rw-r-- 1 bob   bob           0 sep 30 06:53 bob-file.txt
+
+/shared/testing/:
+total 8
+drwxrwxr-x 2 root    testers 4096 sep 30 06:53 .
+drwxr-xr-x 4 root    root    4096 sep 30 06:53 ..
+-rw-rw-r-- 1 charlie charlie    0 sep 30 06:53 test-file.txt

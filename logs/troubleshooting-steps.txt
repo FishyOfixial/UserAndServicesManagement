@@ -1,0 +1,37 @@
+× apache2.service - The Apache HTTP Server
+     Loaded: loaded (/usr/lib/systemd/system/apache2.service; enabled; preset: enabled)
+     Active: failed (Result: exit-code) since Tue 2025-09-30 06:57:06 CST; 13ms ago
+   Duration: 19.129s
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 14066 ExecStart=/usr/sbin/apachectl start (code=exited, status=1/FAILURE)
+        CPU: 10ms
+
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: Starting apache2.service - The Apache HTTP Server...
+sep 30 06:57:06 ivan-VirtualBox apachectl[14068]: apache2: Could not open configuration file /etc/apache2/apache2.conf: No such file or directory
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: apache2.service: Failed with result 'exit-code'.
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+sep 30 06:54:27 ivan-VirtualBox systemd[1]: Starting apache2.service - The Apache HTTP Server...
+sep 30 06:54:27 ivan-VirtualBox apachectl[12520]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+sep 30 06:54:27 ivan-VirtualBox systemd[1]: Started apache2.service - The Apache HTTP Server.
+sep 30 06:56:46 ivan-VirtualBox systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+sep 30 06:56:46 ivan-VirtualBox apachectl[13936]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+sep 30 06:56:46 ivan-VirtualBox systemd[1]: apache2.service: Deactivated successfully.
+sep 30 06:56:46 ivan-VirtualBox systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+sep 30 06:56:46 ivan-VirtualBox systemd[1]: Starting apache2.service - The Apache HTTP Server...
+sep 30 06:56:47 ivan-VirtualBox apachectl[13950]: apache2: Could not open configuration file /etc/apache2/apache2.conf: No such file or directory
+sep 30 06:56:47 ivan-VirtualBox systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
+sep 30 06:56:47 ivan-VirtualBox systemd[1]: apache2.service: Failed with result 'exit-code'.
+sep 30 06:56:47 ivan-VirtualBox systemd[1]: Failed to start apache2.service - The Apache HTTP Server.
+sep 30 06:56:47 ivan-VirtualBox systemd[1]: Starting apache2.service - The Apache HTTP Server...
+sep 30 06:56:47 ivan-VirtualBox apachectl[13965]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+sep 30 06:56:47 ivan-VirtualBox systemd[1]: Started apache2.service - The Apache HTTP Server.
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+sep 30 06:57:06 ivan-VirtualBox apachectl[14055]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: apache2.service: Deactivated successfully.
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: Starting apache2.service - The Apache HTTP Server...
+sep 30 06:57:06 ivan-VirtualBox apachectl[14068]: apache2: Could not open configuration file /etc/apache2/apache2.conf: No such file or directory
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: apache2.service: Failed with result 'exit-code'.
+sep 30 06:57:06 ivan-VirtualBox systemd[1]: Failed to start apache2.service - The Apache HTTP Server.

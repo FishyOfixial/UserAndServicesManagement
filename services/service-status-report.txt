@@ -1,0 +1,11 @@
+● simple-service.service - Simple Test Service
+     Loaded: loaded (/etc/systemd/system/simple-service.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2025-09-30 06:56:14 CST; 10ms ago
+   Main PID: 13916 ((rvice.sh))
+      Tasks: 1 (limit: 11764)
+     Memory: 1.3M (peak: 1.5M)
+        CPU: 4ms
+     CGroup: /system.slice/simple-service.service
+             └─13916 "(rvice.sh)"
+
+sep 30 06:56:14 ivan-VirtualBox systemd[1]: Started simple-service.service - Simple Test Service.
